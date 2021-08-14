@@ -14,7 +14,7 @@ ATtiny84A*
 ATtiny841*   
  * At present, only A0 thru A7 are supported on these processors
 
-Constructors:
+Constructors:   
 tinyDTMF(byte analogPin) - analogPin is optional.  Default pin is A2 if not specified.  
 tinyDTMF(byte analogPin, byte threshold) - specify magnitude threshold to recognize tones
 
