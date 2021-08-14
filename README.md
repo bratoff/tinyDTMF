@@ -12,7 +12,7 @@ ATtiny85
 ATtiny84*   
 ATtiny84A*   
 ATtiny841*   
- * At present, only A0 thru A7 are supported on these processors    
+Note: At present, only A0 thru A7 are supported on the 84, 84A and 841 processors    
 
 Constructors:   
 tinyDTMF(byte analogPin) - analogPin is optional.  Default pin is A2 if not specified.  
@@ -26,5 +26,7 @@ byte getKey(void) - return last decoded key or 0
 byte getAin(void) - return analog pin number   
 long getSampleFreq(void) - return last calculated sample frequency   
 byte getThreshold(void) - return magnitude threshold for recognition   
+
+IMPORTANT: getSample() relies on an Arduino core with an accurate implementation of micros() with good resolution.  I use this one:  https://github.com/SpenceKonde/ATTinyCore   
 
 Version 1.0.0 - 14 Aug 2021 - Initial release
