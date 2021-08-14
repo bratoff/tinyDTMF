@@ -7,7 +7,7 @@ by Bruce Ratoff, KO4XL@yahoo.com, https://github.com/bratoff
 
 This library uses Goertzel's algorithm to detect and decode DTMF characters.   
 
-Supported processors:
+Supported processors:   
 ATtiny85   
 ATtiny84*   
 ATtiny84A*   
