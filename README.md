@@ -20,4 +20,4 @@ byte procSample(void) - Decode sample buffer, return ASCII key or 0
 
 byte getKey(void) - return last decoded key or 0    
 
-Version 1.0.0 - 27 Jul 2021 - Initial release
+Version 1.0.0 - 14 Aug 2021 - Initial release
