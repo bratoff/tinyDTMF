@@ -1,0 +1,5 @@
+tinyDTMF		KEYWORD1
+begin				KEYWORD2
+getSample		KEYWORD2
+procSample	KEYWORD2
+getKey			KEYWORD2
